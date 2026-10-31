@@ -72,8 +72,15 @@ p {
 
 .arm {
   background-color: aquamarine;
+  transform: rotate(35deg);
 }
 
 .leg {
   background-color: dodgerblue;
+}
+
+.eye-closed {
+  height: 4px;
+  padding: 0 5px;
+  border-radius: 10px;
 }
