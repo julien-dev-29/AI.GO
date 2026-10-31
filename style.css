@@ -13,6 +13,7 @@ body {
 }
 
 section {
+  position: relative;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -83,4 +84,17 @@ p {
   height: 4px;
   padding: 0 5px;
   border-radius: 10px;
+}
+
+#speech {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  height: 50px;
+  width: 12%;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
