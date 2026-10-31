@@ -14,3 +14,4 @@ leftEye.classList.add("eye-closed");
 leftEye.style.backgroundColor = "black";
 
 let ready = "yes";
+let robotParts = 20;
