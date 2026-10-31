@@ -12,3 +12,5 @@ console.log(robot.sensors);
 const leftEye = document.getElementById("eye-left");
 leftEye.classList.add("eye-closed");
 leftEye.style.backgroundColor = "black";
+
+let ready = "yes";
