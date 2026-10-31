@@ -1,9 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  opacity: 0.85;
+}
+
 :root {
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
+  height: 100vh;
+}
+
+section {
+  padding: 20px;
+  width: 100%;
+  height: calc(100% / 3);
+}
+
+#face {
+  background-color: cyan;
+}
+
+#upper-body {
+  background-color: blueviolet;
+}
+
+#lower-body {
+  background-color: lightsalmon;
 }
